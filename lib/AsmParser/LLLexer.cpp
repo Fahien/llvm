@@ -683,6 +683,7 @@ lltok::Kind LLLexer::LexIdentifier() {
   KEYWORD(uwtable);
   KEYWORD(writeonly);
   KEYWORD(zeroext);
+  KEYWORD(pyspot);
 
   KEYWORD(type);
   KEYWORD(opaque);

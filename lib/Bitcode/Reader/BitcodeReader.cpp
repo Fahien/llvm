@@ -1399,6 +1399,8 @@ static Attribute::AttrKind getAttrFromCode(uint64_t Code) {
     return Attribute::WriteOnly;
   case bitc::ATTR_KIND_Z_EXT:
     return Attribute::ZExt;
+  case bitc::ATTR_KIND_PYSPOT:
+    return Attribute::Pyspot;
   }
 }
 
